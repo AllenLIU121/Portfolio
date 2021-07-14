@@ -314,6 +314,9 @@ body{
 .bar .progress-line.python{
     width: 75%;
 }
+.bar .progress-line.sql{
+    width: 75%;
+}
 .bar .progress-line.r{
     width: 65%;
 }
@@ -368,6 +371,9 @@ body{
     content: "85%";
 }
 .bar .progress-line.python span::after{
+    content: "75%";
+}
+.bar .progress-line.sql span::after{
     content: "75%";
 }
 .bar .progress-line.r span::after{
